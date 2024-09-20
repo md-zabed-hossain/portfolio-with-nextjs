@@ -9,7 +9,7 @@ module.exports = {
   theme: {
   	extend: {
   		colors: {
-  			background: 'hsl(var(--background))',
+  			background: 'rgb(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
@@ -59,3 +59,10 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 };
+
+
+
+// card: {
+//   				DEFAULT: 'hsl(var(--card))',
+//   				foreground: 'hsl(var(--card-foreground))'
+//   			},
